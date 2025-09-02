@@ -2,7 +2,6 @@ import json
 from tkinter import messagebox
 
 import draw.gui as gui
-# from main import logger
 from service.service import get_connection
 
 
