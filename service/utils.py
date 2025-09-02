@@ -1,10 +1,9 @@
 import argparse
 import re
-from pathlib import Path
 
 
 def create_parser():
-    parser = argparse.ArgumentParser(description="Загрузка истории переписки из чата")
+    parser = argparse.ArgumentParser(description="Запуск чата/регистрации")
     parser.add_argument("--host", default="minechat.dvmn.org", help="host сервера")
     parser.add_argument("--read_port", default=5000, help="port для чтения сообщение")
     parser.add_argument("--send_port", default=5050, help="port для отправки сообщение")
