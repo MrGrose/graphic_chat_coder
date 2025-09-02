@@ -13,8 +13,10 @@
 5. Все события и ошибки логируются в файлы `main_log.log` для последующего анализа.
 
 ## Пример работы
+Регистрация:
 ![reg](https://github.com/user-attachments/assets/b73a5079-3f98-46ad-9664-3eb6aa4204fd)
 
+Запуск чата:
 ![chat](https://github.com/user-attachments/assets/6c2a07f1-bbe3-4288-a2a3-98d4d3650a58)
 
 
