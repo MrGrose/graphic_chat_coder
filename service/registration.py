@@ -71,7 +71,7 @@ def on_close(root, registration_queue, cancel_scope):
 
 
 async def draw_registration():
-    logging.basicConfig(filename="logger_files/reg_log.txt", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     env = Env()
     env.read_env()
 
